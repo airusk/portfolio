@@ -27,6 +27,10 @@
     28.8px 57.5px 72.3px -2.5px hsl(var(--shadow-color) / 0.39);
 }
 
+::selection{
+  background:#f7c171;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

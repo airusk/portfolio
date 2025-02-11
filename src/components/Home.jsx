@@ -6,9 +6,17 @@ function Home() {
 
   return (
   <>
-    <h1>
-      Under Construction
-    </h1>
+    <div className='HomePage'>
+      <h1>
+        About me
+      </h1>
+      <h1>
+        Projects
+      </h1>
+      <h1>
+        Find Me @
+      </h1>
+    </div>
   </>
   )
 }
