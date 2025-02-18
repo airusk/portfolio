@@ -1,4 +1,5 @@
 import { ThemeProvider } from './ThemeProvider'
+import { ModeToggle } from './ThemeToggle'
 import { GlobalStyles } from './GlobalStyles'
 import Home from './Home'
 import useMousePosition from './CustomHooks'
@@ -11,6 +12,7 @@ function App({children}) {
   <>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       <Home/>
+      <ModeToggle/>
     </ThemeProvider>
   </>
   )
