@@ -1,9 +1,10 @@
 import { ThemeProvider } from './ThemeProvider'
 import { ModeToggle } from './ThemeToggle'
 import { GlobalStyles } from './GlobalStyles'
-import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router"
+import { BrowserRouter, Routes, Route } from "react-router"
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import NavigationBar from './NavigationBar'
 import useMousePosition from './CustomHooks'
 import '../css/css-reset.css'
 import '../css/App.css'
@@ -17,11 +18,7 @@ function App({children}) {
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       
       <BrowserRouter>
-        <nav>
-          <NavLink to="/" className={({isActive}) => isActive ? "active" : ""}>
-            Home
-          </NavLink>
-        </nav>
+        <NavigationBar/>
         <Routes>
             <Route path = "/" element={<Home/>}/>
             <Route path = "/projects" element={<Projects/>}/>

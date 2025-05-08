@@ -1,0 +1,12 @@
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .navigation-bar{
+    display: flex;
+    flex-direction: column;
+  }
+}

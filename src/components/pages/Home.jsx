@@ -8,13 +8,7 @@ function Home() {
   <>
     <div className='HomePage'>
       <h1>
-        About me
-      </h1>
-      <h1>
-        Projects
-      </h1>
-      <h1>
-        Find Me @
+        Home or whatever
       </h1>
     </div>
   </>
