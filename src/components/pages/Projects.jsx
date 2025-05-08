@@ -1,12 +1,12 @@
 import { useState } from 'react'
-// import '../css/Home.css'
+import '../../css/Project.css'
 
 function Projects() {
   const [count, setCount] = useState(0)
 
   return (
   <>
-    <div className='ProjectsPage'>
+    <div className='projects'>
       <h1>
         Projects
       </h1>

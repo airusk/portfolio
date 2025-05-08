@@ -1,0 +1,9 @@
+.HomePage{
+  /* background-color: #a3855d; */
+  max-height: 1800px;
+  max-width: 900px;
+  min-height: 1800px;
+  min-width: 600px;
+  background-color: rgb(43, 80, 68);
+  position: center;
+}

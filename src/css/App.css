@@ -1,6 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
+  /* margin: 0 auto; */
   padding: 2rem;
   text-align: center;
 }
@@ -39,4 +39,8 @@
 .dark{
   background-color:#004D40;
   color:#e0ece6;
+}
+
+.link:hover{
+  cursor: pointer;
 }

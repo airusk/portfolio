@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import '../css/Home.css'
+import '../../css/Home.css'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -7,9 +7,11 @@ function Home() {
   return (
   <>
     <div className='HomePage'>
-      <h1>
-        Home or whatever
-      </h1>
+      <div>
+        <h1>
+          Home or whatever
+        </h1>
+      </div>
     </div>
   </>
   )
