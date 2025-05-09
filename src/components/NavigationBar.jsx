@@ -9,7 +9,7 @@ function NavigationBar() {
   <>
     <div className='navigation-bar'>
         <Link to="/" className='link'>Home</Link>
-        <Link to="/me" className='link'>About me</Link>
+        <Link to="/about" className='link'>About me</Link>
         <Link to="/projects" className='link'>Projects</Link>
         <Link to="/links" className='link'>Find me @</Link>
     </div>

@@ -2,9 +2,10 @@ import { ThemeProvider } from './ThemeProvider'
 import { ModeToggle } from './ThemeToggle'
 import { GlobalStyles } from './GlobalStyles'
 import { BrowserRouter, Routes, Route } from "react-router"
-import Moi from './pages/Header'
+import Header from './pages/Header'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import About from './pages/About'
 import NavigationBar from './NavigationBar'
 import useMousePosition from './CustomHooks'
 import '../css/css-reset.css'
@@ -17,12 +18,13 @@ function App({children}) {
     
   <>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <Moi></Moi>
+      <Header/>
       <BrowserRouter>
         <NavigationBar/>
         <Routes>
             <Route path = "/" element={<Home/>}/>
             <Route path = "/projects" element={<Projects/>}/>
+            <Route path = "/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
       <ModeToggle/>

@@ -1,9 +1,17 @@
-.HomePage{
-  /* background-color: #a3855d; */
+.homepage{
   max-height: 1800px;
   max-width: 900px;
   min-height: 1800px;
   min-width: 600px;
   background-color: rgb(43, 80, 68);
-  position: center;
+  /* position: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+  .homepage{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }

@@ -6,7 +6,7 @@ function Home() {
 
   return (
   <>
-    <div className='HomePage'>
+    <div className='homepage'>
       <div>
         <h1>
           Home or whatever
