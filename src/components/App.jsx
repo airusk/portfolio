@@ -1,6 +1,5 @@
 import { ThemeProvider } from './ThemeProvider'
 import { ModeToggle } from './ThemeToggle'
-import { GlobalStyles } from './GlobalStyles'
 import { BrowserRouter, Routes, Route } from "react-router"
 import Header from './pages/Header'
 import Home from './pages/Home'

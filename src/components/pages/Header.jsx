@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import avatar from '../../assets/placeholder.jpg'
 import '../../css/header.css'
 
 function Header() {

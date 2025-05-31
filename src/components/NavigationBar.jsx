@@ -8,10 +8,10 @@ function NavigationBar() {
   return (
   <>
     <div className='navigation-bar'>
-        <Link to="/" className='link'>Home</Link>
-        <Link to="/about" className='link'>About me</Link>
-        <Link to="/projects" className='link'>Projects</Link>
-        <Link to="/links" className='link'>Find me @</Link>
+      <Link to="/" className='link'>Home</Link>
+      <Link to="/about" className='link'>About me</Link>
+      <Link to="/projects" className='link'>Projects</Link>
+      <Link to="/links" className='link'>Find me @</Link>
     </div>
   </>
   )
