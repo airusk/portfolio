@@ -1,7 +1,5 @@
 import { ThemeProvider } from './ThemeProvider'
-import { ModeToggle } from './ThemeToggle'
 import { BrowserRouter, Routes, Route } from "react-router"
-import Header from './pages/Header'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
@@ -17,7 +15,6 @@ function App({children}) {
     
   <>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <Header/>
       <BrowserRouter>
         <NavigationBar/>
         <Routes>
@@ -26,7 +23,6 @@ function App({children}) {
             <Route path = "/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
-      <ModeToggle/>
     </ThemeProvider>
   </>
   )

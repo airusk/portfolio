@@ -1,50 +1,101 @@
-@media (min-width: 800px) {
-  .navigation-bar{
-    display: flex;
-    flex-direction: row;
-    max-width: inherit;
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    justify-content: center;
-  }
-  .navigation-bar .link{
-    padding: 1.5rem 2rem;
-    width: 9rem;
-  }
+.header{
+  display: flex;
+  flex-direction: row;
 }
 
-.dark .navigation-bar{
-  background-color:#004d4083;
+.dark .header{
+  background-color:#004d40dd;
   color:#e0ece6;
   backdrop-filter: blur(6px);
 }
 
-.dark .navigation-bar .link:hover{
-  border-bottom: 4px solid #f7c171;
-  color:#ffffff;
-  margin-bottom: 8px;
-  padding-bottom: 4px;
+.light .header{
+  background-color:#e0ece6dd;
+  color:#004d40;
+  backdrop-filter: blur(6px);
 }
 
-.light .navigation-bar .link:hover{
-  border-bottom: 4px solid #f7c171;
-  color:#004d4083;
-  margin-bottom: 8px;
-  padding-bottom: 4px;
-}
+@media (min-width: 800px) {
+  .header{
+    justify-content: center;
+    max-width: inherit;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
 
-@media (max-width: 600px) {
   .navigation-bar{
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+  }
+
+  .navigation-bar .link{
+    padding: 1.5rem 2rem;
+    width: 6rem;
+    text-align: center;
+  }
+
+  .dark .navigation-bar .link:hover{
+    border-bottom: 4px solid #f7c171;
+    color:#ffffff;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+  }
+
+  .light .navigation-bar .link:hover{
+    border-bottom: 4px solid #f7c171;
+    color:#008770;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom-width: 20%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .header{
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0px;
     justify-content: center;
+  }
+
+  .navigation-bar{
+    display: flex;
+    flex-direction: row;
   }
   .navigation-bar .link{
     padding: .75rem 1rem;
     width: 3rem;
   }
+
+  .dark .navigation-bar .link:hover{
+    color:#ffffff;
+  }
+
+  .light .navigation-bar .link:hover{
+    color:#008770
+  }
+}
+
+.lightswitch{
+  height: 32px;
+}
+
+.light .lightswitch{
+  filter: brightness(0) saturate(100%) invert(20%) sepia(72%) saturate(663%) hue-rotate(124deg) brightness(100%) contrast(102%);
+}
+
+.light .lightswitch:hover{
+  filter: brightness(0) saturate(100%) invert(36%) sepia(29%) saturate(2219%) hue-rotate(132deg) brightness(99%) contrast(101%);;
+}
+
+.dark .lightswitch{
+  filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(131%) hue-rotate(98deg) brightness(97%) contrast(94%);
+}
+
+.dark .lightswitch:hover{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(265%) hue-rotate(319deg) brightness(115%) contrast(100%);
 }

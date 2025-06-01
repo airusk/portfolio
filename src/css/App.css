@@ -1,8 +1,6 @@
 #root {
   width: 100%;
   /* margin: 0 auto; */
-  padding: 2rem;
-  text-align: center;
 }
 
 :root {
@@ -33,11 +31,11 @@
 
 .light{
   background-color:#e0ece6;
-  color:#004D40;
+  color:#004d40;
 }
 
 .dark{
-  background-color:#004D40;
+  background-color:#004d40;
   color:#e0ece6;
 }
 
