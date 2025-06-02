@@ -26,7 +26,7 @@
 }
 
 ::selection{
-  background:#f7c171;
+  background:#fa9b6b;
 }
 
 .light{
@@ -41,4 +41,20 @@
 
 .link:hover{
   cursor: pointer;
+}
+
+.sub-heading-box{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+
+.sub-heading{
+  font-size: 32px;
+}
+
+.body-text{
+  margin-bottom: 1.25rem;
+  line-height: 24px;
 }

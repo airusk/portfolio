@@ -6,7 +6,7 @@ import About from './pages/About'
 import NavigationBar from './NavigationBar'
 import useMousePosition from './CustomHooks'
 import '../css/css-reset.css'
-import '../css/App.css'
+import '../css/app.css'
 
 function App({children}) {
   const mousePosition = useMousePosition()
