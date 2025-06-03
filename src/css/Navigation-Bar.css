@@ -4,6 +4,7 @@
   /* justify-content: space-around; */
   align-items: center;
   padding-bottom: .5rem;
+  z-index: 1;
 }
 .navigation-bar{
   width: 70%;

@@ -1,0 +1,58 @@
+.homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-width: 700px;
+  min-height:90vh;
+  min-width: 400px;
+  /* position: center; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.big-ol-div{
+  height: 25vh;
+}
+
+.home-statement{
+  margin-top: 2rem;
+  font-size: 36px;
+  margin-bottom: 4rem;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .social-link{
+    height: 24px;
+    margin: 0 .5rem;
+  }
+}
+
+.light .social-link{
+  filter: brightness(0) saturate(100%) invert(20%) sepia(72%) saturate(663%) hue-rotate(124deg) brightness(100%) contrast(102%);
+}
+
+.light .social-link:hover{
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(36%) sepia(29%) saturate(2219%) hue-rotate(132deg) brightness(99%) contrast(101%);;
+}
+
+.dark .social-link{
+  filter: brightness(0) saturate(100%) invert(95%) sepia(11%) saturate(131%) hue-rotate(98deg) brightness(97%) contrast(94%);
+}
+
+.dark .social-link:hover{
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(265%) hue-rotate(319deg) brightness(115%) contrast(100%);
+}
+
+
+@media (max-width: 600px) {
+  .homepage{
+    min-height: 130vh;
+  }
+}
