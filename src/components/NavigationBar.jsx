@@ -7,7 +7,7 @@ import sun from '../assets/icons/sun-regular.svg'
 
 function NavigationBar() {
   const [count, setCount] = useState(0)
-  const resumeUrl = 'https://github.com/airusk/portfolio/blob/main/src/assets/Kevin_Suriawijaya_Resume.pdf'
+  const resumeUrl = 'https://raw.githubusercontent.com/airusk/portfolio/main/src/assets/Kevin_Suriawijaya_Resume.pdf'
   const { setTheme, theme } = useTheme()
   const lightswitch = theme == 'dark' ? sun : moon 
 
