@@ -2,13 +2,18 @@
   margin-top: 3rem;
   height: 100%;
   min-height:100vh;
-  max-width: 1200px;
-  min-width: 400px;
+  max-width: 1000px;
+  // min-width: 400px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 3rem;
   padding-right: 3rem;
   margin-bottom: 4rem;
+  .sub-heading-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .project-cards{
@@ -18,7 +23,7 @@
 }
 
 .project-card{
-  width: 100%;
+  width: auto;
   height: fit-content;
   display: flex;
   flex-direction: row;
@@ -59,11 +64,6 @@
   }
 }
 
-.es-video{
-  width:100%;
-  margin-bottom: 1rem;
-}
-
 .project-links{
   position: absolute;
   bottom: 0;
@@ -97,7 +97,7 @@
   }
 
   .project-card{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;

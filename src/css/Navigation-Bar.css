@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   /* justify-content: space-around; */
+  width: auto;
   align-items: center;
   padding-bottom: .5rem;
   z-index: 1;
@@ -39,7 +40,17 @@
   backdrop-filter: blur(6px);
 }
 
-@media (min-width: 600px) {
+.small-display-bar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  .switches{
+    position: absolute;
+  }
+}
+
+@media (min-width: 601px) {
   .header{
     max-width: inherit;
     position: sticky;
@@ -50,7 +61,7 @@
   .navigation-bar{
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .navigation-bar .link{
@@ -96,6 +107,17 @@
   }
 }
 
+
+@media (max-width: 500px) {
+  .switches{
+    visibility: hidden;
+  }
+
+  .small-display-bar .switches{
+    visibility: visible;
+  }
+}
+
 .lightswitch{
   height: 24px;
 }
@@ -117,3 +139,4 @@
   cursor: pointer;
   filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(265%) hue-rotate(319deg) brightness(115%) contrast(100%);
 }
+

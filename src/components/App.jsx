@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import NavigationBar from './NavigationBar'
-import useMousePosition from './CustomHooks'
+import SmallDisplayBar from './SmallDisplayBar'
 import '../css/css-reset.css'
 import '../css/app.css'
 
@@ -15,6 +15,7 @@ function App({children}) {
   <>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       <BrowserRouter basename = '/portfolio'>
+        <SmallDisplayBar/>
         <NavigationBar/>
         <Routes>
             <Route path = "/" element={<Home/>}/>
