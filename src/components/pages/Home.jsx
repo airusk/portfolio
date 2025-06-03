@@ -5,7 +5,6 @@ import linkedin from '../../assets/icons/linkedin-brands.svg'
 import mail from '../../assets/icons/paper-plane-solid.svg'
 
 function Home() {
-  const [count, setCount] = useState(0)
 
   return (
   <>

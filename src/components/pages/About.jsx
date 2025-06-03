@@ -4,7 +4,6 @@ import '../../css/about.scss'
 import {dateDiffInDays} from '../utils/DateFunctions'
 
 function About() {
-  const [count, setCount] = useState(0)
   const startedClimbing = new Date('2020/06/17')
   const today = new Date()
 
