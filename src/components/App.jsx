@@ -9,7 +9,6 @@ import '../css/css-reset.css'
 import '../css/app.css'
 
 function App({children}) {
-  const mousePosition = useMousePosition()
 
   return (
     
