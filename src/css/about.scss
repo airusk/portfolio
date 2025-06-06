@@ -26,9 +26,16 @@
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.about{
+  .about-me{
+    height: auto;
+    padding-bottom: 3rem;
+  }
+}
 
 @media (max-width: 600px) {
   .about{
-    min-height: 100vh;
+    height: calc(100vh + 250px) !important;
+    padding-bottom: 3rem;
   }
 }
