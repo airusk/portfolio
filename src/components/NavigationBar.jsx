@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { NavLink, Link } from "react-router"
+import { Link } from "react-router"
 import { useTheme } from "./ThemeProvider"
 import '../css/navigation-bar.css'
 import moon from '../assets/icons/moon-regular.svg'

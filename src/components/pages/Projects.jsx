@@ -10,7 +10,6 @@ import youtube from '../../assets/icons/youtube-brands.svg'
 import github from '../../assets/icons/github-brands.svg'
 
 function Projects() {
-  const [count, setCount] = useState(0)
 
   return (
   <>
@@ -26,7 +25,7 @@ function Projects() {
             <img src={esthumb} className='card-image' alt="" />
           </div>
           <div className='card-description'>
-            <h2 className='project-title'>everybody's sad</h2>
+            <h2 className='project-title'>everybody&apos;s sad</h2>
             <p className='project-description'>
               A light-hearted virtual reality game focused on themes of humor and self-care.
             </p>
@@ -34,7 +33,7 @@ function Projects() {
              Developed as part of a small, tight-knit team, I served primarily as a developer and designer—though in a team of our size ( 12 members ), everyone contributed across disciplines. The game was built in Unity using C#, with support for the HTC Vive through the SteamVR library.
             </p>
             <p className='project-description'>
-              We received the <a href="https://ludolab.ucsc.edu/gamego/">GameGo</a> grant. After which we showcased everybody's sad at <a href="https://www.indiecade.com/2018-games/everybodys-sad/">Indiecade</a> in 2018, the <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/gamedev/overview.html">Intel Game Dev</a> panel at <a href="https://gdconf.com/">GDC</a>, and <a href="https://dreamhack.com/">DreamHack Indie Playground</a> 
+              We received the <a href="https://ludolab.ucsc.edu/gamego/">GameGo</a> grant. After which we showcased everybody&apos;s sad at <a href="https://www.indiecade.com/2018-games/everybodys-sad/">Indiecade</a> in 2018, the <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/gamedev/overview.html">Intel Game Dev</a> panel at <a href="https://gdconf.com/">GDC</a>, and <a href="https://dreamhack.com/">DreamHack Indie Playground</a> 
             </p>
             <div className='project-links'>
               <a href="https://store.steampowered.com/app/898080/everybodys_sad/" target="_blank"><img src={steam} className='project-link' alt="steam"/></a>

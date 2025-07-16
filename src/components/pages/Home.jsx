@@ -12,7 +12,7 @@ function Home() {
       <div>
         <div className='big-ol-div'></div>
         <h1 className='home-statement'>
-          it aint much but it's home.
+          it aint much but it&apos;s home.
         </h1>
         <div className='socials'>
           <a href="https://github.com/airusk" target="_blank"><img src={github} className='social-link' alt="github"/></a>

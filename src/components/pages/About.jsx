@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import avatar from '../../assets/images/avatar3.png'
 import '../../css/about.scss'
 import {dateDiffInDays} from '../utils/DateFunctions'
@@ -30,7 +29,7 @@ function About() {
         </p>
         <p className='body-text'>
           Although my passion for games led me to pursue that degree, I began my career in web development—and found a surprising enjoyment in it. I still love games, especially when I get to play with friends, either online or offline.
-          These days I spend a lot of my free time rock climbing. I didn't expect to stick with it at first, but it's become a real passion—and it's been {deltaYears} years {daysString} since I started bouldering.
+          These days I spend a lot of my free time rock climbing. I didn&apos;t expect to stick with it at first, but it&apos;s become a real passion—and it&apos;s been {deltaYears} years {daysString} since I started bouldering.
         </p>
       </div>
     </div>
