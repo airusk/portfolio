@@ -14,7 +14,7 @@ function App({children}) {
     
   <>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <BrowserRouter basename = '/portfolio'>
+      <BrowserRouter>
         <SmallDisplayBar/>
         <NavigationBar/>
         <Routes>

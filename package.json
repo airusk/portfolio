@@ -1,12 +1,13 @@
 {
   "name": "portfolio",
-  "homepage": "https://airusk.github.io/portfolio",
+  "homepage": "https://airusk.dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/build-pages.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
