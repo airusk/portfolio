@@ -20,16 +20,17 @@ function About() {
       <div className='about-me text'>
         <div className='sub-heading-box'>
           <h1 className='sub-heading'>
-            biography
+            about
           </h1>
         </div>
         <p className='body-text'>
-          I grew up a little in Ontario and a lot in the coastal cities of California.
-          Currently based in Los Angeles, I earned my B.S. in Computer Science with a concentration in Computer Game Design from UC Santa Cruz.
+          I'm a designer who worries a whole lot about how things work. Still, I always find myself striving to delight.
+          Currently I'm based in Los Angeles getting my M.S. in Interactive Media & Game Design at USC. Prior to that I have worked as a Software Engineer for more than a few years, and almost a decade ago I earned my B.S. in Computer Science & Game Design from UC Santa Cruz.
+          I've felt lucky to grow up in a place with four seasons, and maybe more lucky now to find myself in a place with just two of them now.       
         </p>
         <p className='body-text'>
-          Although my passion for games led me to pursue that degree, I began my career in web development—and found a surprising enjoyment in it. I still love games, especially when I get to play with friends, either online or offline.
-          These days I spend a lot of my free time rock climbing. I didn&apos;t expect to stick with it at first, but it&apos;s become a real passion—and it&apos;s been {deltaYears} years {daysString} since I started bouldering.
+          I began my career in software engineering, and time and time again I was reminded by how much I enjoyed the design aspect of my work when it did come up.
+          When it's not something game-related, I spend a lot of my free time bouldering, running, or cooking.
         </p>
       </div>
     </div>
