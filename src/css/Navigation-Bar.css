@@ -8,7 +8,7 @@
   z-index: 1;
 }
 .navigation-bar{
-  width: 70%;
+  flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -17,7 +17,6 @@
 .switches{
   display: flex;
   justify-content: flex-end;
-  width: 30%;
 }
 
 .switch{
@@ -26,6 +25,10 @@
 
 .link.home{
   white-space: nowrap;
+}
+
+.home-short{
+  display: none;
 }
 
 .dark .header{
@@ -47,10 +50,11 @@
   visibility: hidden;
   .switches{
     position: absolute;
+    right: 0;
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 751px) {
   .header{
     max-width: inherit;
     position: sticky;
@@ -65,8 +69,7 @@
   }
 
   .navigation-bar .link{
-    padding: 1.5rem 2rem;
-    width: 6rem;
+    padding: 1.5rem 1rem;
     text-align: center;
   }
 
@@ -81,7 +84,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .header{
     width: 100%;
     position: fixed;
@@ -90,12 +93,31 @@
   }
 
   .navigation-bar{
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
   }
   .navigation-bar .link{
-    padding: .75rem 1rem;
-    width: 3rem;
+    padding: .9rem .5rem;
+    font-size: .9rem;
+  }
+
+  .home-name,
+  .header .switches{
+    display: none;
+  }
+
+  .home-short{
+    display: inline;
+  }
+
+  .small-display-bar{
+    position: fixed;
+    visibility: visible;
+    z-index: 2;
+  }
+
+  .small-display-bar .switches{
+    visibility: visible;
   }
 
   .dark .navigation-bar .link:hover{
@@ -107,16 +129,6 @@
   }
 }
 
-
-@media (max-width: 500px) {
-  .switches{
-    visibility: hidden;
-  }
-
-  .small-display-bar .switches{
-    visibility: visible;
-  }
-}
 
 .lightswitch{
   height: 24px;

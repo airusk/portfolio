@@ -12,7 +12,7 @@ function SmallDisplayBar() {
     <div className='small-display-bar'>
         <div className='switches'>
           <div className='switch'>
-            <img src={lightswitch} alt="" className='lightswitch'onClick={ev => {setTheme(theme == 'dark' ? 'light' : 'dark')}}/>
+            <img src={lightswitch} alt="" className='lightswitch'onClick={() => {setTheme(theme == 'dark' ? 'light' : 'dark')}}/>
           </div>
         </div>
     </div>

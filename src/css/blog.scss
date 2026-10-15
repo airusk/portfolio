@@ -1,0 +1,134 @@
+.blog {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 760px;
+  min-height: 100vh;
+  margin: 3rem auto 0;
+  padding: 0 3rem 6rem;
+}
+
+.blog a {
+  color: inherit;
+}
+
+.blog-intro {
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.blog-list {
+  list-style: none;
+}
+
+.blog-entry {
+  border-top: 1px solid currentColor;
+  padding: 1.5rem 0 2rem;
+}
+
+.blog-entry time,
+.blog-post time {
+  display: block;
+  font-size: .875rem;
+  margin-bottom: .75rem;
+  opacity: .75;
+}
+
+.blog-entry h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: .75rem;
+}
+
+.blog-entry h2 a {
+  text-decoration: none;
+}
+
+.blog-entry h2 a:hover,
+.blog-back:hover {
+  text-decoration: underline;
+}
+
+.blog-entry p,
+.blog-body {
+  line-height: 1.7;
+}
+
+.blog-back {
+  display: inline-block;
+  margin-bottom: 3rem;
+  text-decoration: none;
+}
+
+.blog-post h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.blog-body > * {
+  margin-bottom: 1.5rem;
+}
+
+.blog-body h2,
+.blog-body h3 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+}
+
+.blog-body h2 {
+  font-size: 1.5rem;
+}
+
+.blog-body h3 {
+  font-size: 1.2rem;
+}
+
+.blog-body a {
+  text-decoration: underline;
+}
+
+.blog-body ul,
+.blog-body ol {
+  padding-left: 1.5rem;
+}
+
+.blog-body ul {
+  list-style: disc;
+}
+
+.blog-body ol {
+  list-style: decimal;
+}
+
+.blog-body li {
+  margin-bottom: .5rem;
+}
+
+.blog-body img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.blog-body pre {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.blog-body blockquote {
+  border-left: 2px solid currentColor;
+  padding-left: 1rem;
+}
+
+@media (max-width: 600px) {
+  .blog {
+    margin-top: 2rem;
+    padding: 0 1.5rem 6rem;
+  }
+
+  .blog-post h1 {
+    font-size: 1.9rem;
+  }
+}

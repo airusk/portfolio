@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../../css/projects.scss'
 import esthumb from '../../assets/images/everybodyssadfull.jpg'
 import ba from '../../assets/images/01.jpg'

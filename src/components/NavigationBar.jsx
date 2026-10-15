@@ -14,15 +14,19 @@ function NavigationBar() {
     <div className='header'>
       <div className='navigation-bar'>
         <div>
-          <Link to="/" className='link home'>kevin suriawijaya</Link>
+          <Link to="/" className='link home'>
+            <span className='home-name'>kevin suriawijaya</span>
+            <span className='home-short'>home</span>
+          </Link>
         </div>
         <Link to="/about" className='link'>about</Link>
         <Link to="/projects" className='link'>projects</Link>
+        <Link to="/blog" className='link'>blog</Link>
         <a className='resume link' href={resumeUrl} target="_blank">resume</a>
       </div>
       <div className='switches'>
         <div className='switch'>
-          <img src={lightswitch} alt="" className='lightswitch'onClick={ev => {setTheme(theme == 'dark' ? 'light' : 'dark')}}/>
+          <img src={lightswitch} alt="" className='lightswitch'onClick={() => {setTheme(theme == 'dark' ? 'light' : 'dark')}}/>
         </div>
       </div>
     </div>

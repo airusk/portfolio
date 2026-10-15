@@ -1,18 +1,7 @@
 import avatar from '../../assets/images/avatar3.png'
 import '../../css/about.scss'
-import {dateDiffInDays} from '../utils/DateFunctions'
 
 function About() {
-  const startedClimbing = new Date('2020/06/17')
-  const today = new Date()
-
-  const sinceDayOne = dateDiffInDays(startedClimbing, today)
-  const [deltaYears, deltaDays] = [Math.floor(sinceDayOne/365), sinceDayOne%365]
-  let daysString = deltaDays == 0 ? "" : `and ${deltaDays} days `
-  if (deltaDays == 1){
-    daysString = 'and 1 day'
-  }
-  
   return (
   <>
     <div className='about'>

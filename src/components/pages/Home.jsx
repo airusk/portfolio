@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../../css/home.scss'
 import github from '../../assets/icons/github-brands.svg'
 import linkedin from '../../assets/icons/linkedin-brands.svg'
