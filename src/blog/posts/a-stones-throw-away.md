@@ -1,6 +1,6 @@
 ---
 title: A stone's throw away
-date: '2026-10-14'
+date: '2026-10-15'
 summary: Searching for fun; A benchmark and retrospective on my prototype
 ---
 

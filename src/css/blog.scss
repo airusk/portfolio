@@ -4,11 +4,31 @@
   max-width: 760px;
   min-height: 100vh;
   margin: 3rem auto 0;
-  padding: 0 3rem 6rem;
+  padding: 3rem 3rem 6rem;
+}
+
+.dark .blog {
+  color-scheme: light;
+  background-color: #e0ece6;
+  color: #004d40;
+}
+
+.light .blog {
+  color-scheme: dark;
+  background-color: #004d40;
+  color: #e0ece6;
 }
 
 .blog a {
   color: inherit;
+}
+
+.dark .blog a:hover {
+  color: #008770;
+}
+
+.light .blog a:hover {
+  color: #ffffff;
 }
 
 .blog-intro {
@@ -122,10 +142,18 @@
   padding-left: 1rem;
 }
 
+.blog-body em{
+  font-style: italic;
+}
+
+.blog-body strong{
+  font-weight: bold;
+}
+
 @media (max-width: 600px) {
   .blog {
     margin-top: 2rem;
-    padding: 0 1.5rem 6rem;
+    padding: 2rem 1.5rem 6rem;
   }
 
   .blog-post h1 {

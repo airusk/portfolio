@@ -39,7 +39,7 @@ function Blog() {
       <div className="sub-heading-box">
         <h1 className="sub-heading">blog</h1>
       </div>
-      <p className="blog-intro">a slightly livened up collection of personal notes</p>
+      <p className="blog-intro">A somewhat-spiced up collection of personal notes</p>
       {posts.length === 0 ? (
         <p className="body-text">No notes yet.</p>
       ) : (
