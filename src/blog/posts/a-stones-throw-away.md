@@ -1,10 +1,11 @@
 ---
 title: A stone's throw away
 date: '2026-10-15'
-summary: Searching for fun; A benchmark and retrospective on my prototype
+summary: Searching for fun; a first benchmark retrospective
 ---
-
-The first two weeks:
+[Image]
+This post is to serve as a way to reflect on my process building a simple game with AI. 
+This prototype was built over a handful of sessions with Codex. My process was to 
 I started with an action/verb/mechanic that I drew from fun I come across in my own life; skipping rocks; then I wanted to gamify it and have players teleport to where they landed the stone.
 
 My initial philosophy on designing this prototype was to create levels that stretched our player thin unless they skipped rocks for maximal distance when teleporting.

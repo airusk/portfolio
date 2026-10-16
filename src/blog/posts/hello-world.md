@@ -12,3 +12,4 @@ From where I'm standing, the world has yet to adopt AI in the avenues it has dem
 
 On a lighter note, interest in *Dungeon Crawler Carl* is at an all-time high, and people are once again flocking to the cinemas. Theater is saved once again! Television, Streaming, and COVID be **damned!**
 
+With all that said, I formerly worked in one of the most impacted fields by AI (or ANI if you want to get into semantics) and I think it's pretty good idea to keep up-to-date on tools if nothing else.
